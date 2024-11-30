@@ -15,25 +15,26 @@ STRING https://mail.google.com/mail/u/0/#inbox?compose=new
 ENTER
 DELAY 5000
 DELAY 1000
-STRING {EMAIL ADDRESS YOU WANT TO SEND EMAIL TO}
+STRING {khan.shahrukh1997@outlook.com}
 DELAY 500
 TAB
 TAB
-STRING {YOUR SUBJECT NAME}
+STRING {Usha Kapur}
 TAB
-STRING Hi {THEIR NAME}
+STRING Hi {Mr. Shah Rukh Khan}
 ENTER
 ENTER
-STRING {CONTENTS OF THE EMAIL}
+STRING {Thanks you for reading this. It is your Nani here reminding you to do the groceries.
+We have run out of milk beta. Thank you so much beta}
 ENTER
 ENTER
-STRING {IF YOU WANT A SECOND PARAGRAPH, THIS IS WHAT DOUBLE-ENTER ABOVE DOES}
+STRING {P.S. You were good at acting in your last movie}
 ENTER
 ENTER
 STRING Respectfully,
 ENTER
 ENTER
-STRING {YOUR NAME}
+STRING {Usha Kapur}
 ENTER
 CTRL ENTER
 DELAY 5000
