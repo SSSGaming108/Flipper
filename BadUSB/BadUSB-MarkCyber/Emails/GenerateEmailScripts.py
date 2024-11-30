@@ -23,24 +23,23 @@ data_cleaned_df.columns = ['Name', 'Email']
 
 # List of placeholder subject options. Change these to 7 similar subjects that match your email (if you are sending many. You can use the same if not)
 subject_options = [
-    "Placeholder for subject option 1",
-    "Placeholder for subject option 2",
-    "Placeholder for subject option 3",
-    "Placeholder for subject option 4",
-    "Placeholder for subject option 5",
-    "Placeholder for subject option 6",
-    "Placeholder for subject option 7"
-]
+    "Need more Groceries",
+    "Loving and caring text from parents",
+    "How do you left-click",
+    "What is a mouse on my computer",
+    "Do not redeem gift cards
 
 # Placeholder for email body template. The name field will be filled from the "names" section in the excel sheet you provided.
 # Just modify the actual email body and sender name to fit your needs
 email_body_template = """
-Hi {name},
+Hi all Betas,
+Your Nani here wants to remind you that your grandfather and everyone else in the family are disappointed in you.
+Please actually show up at the family dinner this year with clothes on. 
+Thank you for reading
 
-Placeholder for email body.
 
 Warm Regards,
-Sender Name
+Gauri Nani
 """
 
 # Function to generate BadUSB script
